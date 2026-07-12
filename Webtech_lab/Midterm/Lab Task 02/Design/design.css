@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+fieldset{
+    width: 700px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+body{
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     background-color: rgb(118, 118, 120);
+     padding: 30px;
+     line-height: 3;
+     font-weight: bold;
+     
+}
+.container{
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    border-radius:5px;
+    box-shadow: 0 10px 10px;
+}
+legend{
+    padding: 0 10px;
+    color: rgba(114, 207, 254, 0.631);
+    font-size: 15px;
+}
+input[type="text"],
+input[type="password"]{
+   
+    padding: 10px;
+    margin-left: 70px;
+    border-color: rgb(0, 0, 0);
+    border-radius: 10px;
+    font-size: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+button{
+    width: 120px;
+    height: 40px;
+    margin-left: 195px;
+    padding: 10px;
+    border-color: rgb(0, 0, 0);
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: bold;
+}
+button:hover{
+    background-color: rgba(68, 68, 68, 0.422);
+}
